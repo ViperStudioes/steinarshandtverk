@@ -278,6 +278,7 @@ footer {
     }
     
       footer {
+        padding-top: 500px;
         padding-bottom: 15px;
       }
       footer p {
