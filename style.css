@@ -261,8 +261,9 @@ footer {
       }
 
       #main-header {
-        min-height: 500px;  
+        height: 300px;  
       }
+   
       #forsidebilde {
         width: auto;
       }  
