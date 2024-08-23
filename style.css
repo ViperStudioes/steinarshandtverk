@@ -261,9 +261,26 @@ footer {
       }
 
       #main-header {
-        height: 300px;  
+        height: 200px;  
       }
-   
+      
+
+      .om-side .showcase img,
+      .kontakt-side .showcase img {
+        display: none;
+        }
+      
+      .om-side .overlay,
+      .kontakt-side .overlay {
+        background-color: #956242;
+        height: 600px;
+      }
+      
+      .om-side .showcase,
+      .kontakt-side .showcase {
+        background-color: transparent;
+      }
+
       #forsidebilde {
         width: auto;
       }  
