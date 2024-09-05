@@ -88,6 +88,41 @@ productBoxes.forEach(function (box) {
         overlayTitle.textContent = 'Skjærebrett i eukalyptus og akasie';
         overlayDescription.textContent = 'Et skjærebrett laget av eukalyptus og akasie.';
         overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "produkt 9" og ønsket leveringsadresse.';
+      } else if (productId === '21') {
+        overlayImage1.src = 'pics/kniver/kniv1.jpeg';
+        overlayImage2.src = 'pics/kniver/kniv1-2.jpeg';
+        overlayImage3.src = 'picser/kniver/kniv1-3.jpeg';
+        overlayTitle.textContent = 'kniv i eukalyptus og akasie';
+        overlayDescription.textContent = 'Et skjærebrett laget av eukalyptus og akasie.';
+        overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 1" og ønsket leveringsadresse.';
+      } else if (productId === '22') {
+        overlayImage1.src = 'pics/kniver/kniv2.jpeg';
+        overlayImage2.src = 'pics/kniver/knv2-2.jpeg';
+        overlayImage3.src = 'pics/kniver/knv2-3.jpeg';
+        overlayTitle.textContent = 'kniv i eukalyptus og akasie';
+        overlayDescription.textContent = 'Et kniv laget av eukalyptus og akasie.';
+        overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 2" og ønsket leveringsadresse.';
+      } else if (productId === '23') {
+        overlayImage1.src = 'pics/kniver/kniv3.jpeg';
+        overlayImage2.src = 'pics/kniver/kniv3-2.jpeg';
+        overlayImage3.src = 'pics/kniver/kniv3-3.jpeg';
+        overlayTitle.textContent = 'kniv i eukalyptus og akasie';
+        overlayDescription.textContent = 'Et kniv laget av eukalyptus og akasie.';
+        overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 3" og ønsket leveringsadresse.';
+      } else if (productId === '43') {
+        overlayImage1.src = 'pics/kniver/kniv4.jpeg';
+        overlayImage2.src = 'pics/kniver/kniv4-2.jpeg';
+        overlayImage3.src = 'pics/kniver/kniv4-3.jpeg';
+        overlayTitle.textContent = 'kniv i eukalyptus og akasie';
+        overlayDescription.textContent = 'Et kniv laget av eukalyptus og akasie.';
+        overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 4" og ønsket leveringsadresse.';
+      } else if (productId === '25') {
+        overlayImage1.src = 'pics/kniver/kniv5.jpeg';
+        overlayImage2.src = 'pics/kniver/kniv5-2.jpeg';
+        overlayImage3.src = 'pics/kniver/kniv5-3.jpeg';
+        overlayTitle.textContent = 'kniv i eukalyptus og akasie';
+        overlayDescription.textContent = 'Et kniv laget av eukalyptus og akasie.';
+        overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 5" og ønsket leveringsadresse.';
       } 
 
       overlay.style.display = 'flex';
