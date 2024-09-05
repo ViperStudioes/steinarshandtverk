@@ -238,7 +238,66 @@ text-align: center;
       transform: scale(1.05); /* Litt zoom-effekt ved hover */
     }
 
+/* Overlay som dekker hele skjermen */
 
+
+#product-overlay {
+  display: none; /* Skjul overlay som standard */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.overlay-content {
+  position: relative;
+  margin: 5% auto;
+  background-color: #358BBC;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 700px;
+  width: 80%;
+}
+
+.overlay-gallery {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.overlay-gallery img {
+  width: 30%; /* Tre bilder i bredden */
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.overlay-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.overlay-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overlay-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
 
 /* mobilvisning */
 
