@@ -52,7 +52,7 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       thumbnails[0].src = 'pics/skjærebrett/product4.jpeg';
       thumbnails[1].src = 'pics/skjærebrett/product4-2.jpeg';
       thumbnails[2].src = 'pics/skjærebrett/product4-3.jpeg';
-      overlayTitle.textContent = 'Skjærebrett i eukalyptus og akasie';
+      overlayTitle.textContent = 'Skjærebrett i surnet epletre';
       overlayDescription.textContent = 'L 29 x B 32x H 1,2 cm. Laget av surnet epletre, som er stabilisert og limt sammen med epoxy i fargen kaffe.';
       overlayExtraDescription.textContent = 'Bestille? Send 1250kr på vipps til 909 17 933. Merk med "produkt 4" og ønsket leveringsadresse.';
     } else if (productId === '5') {
@@ -76,7 +76,7 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       thumbnails[0].src = 'pics/skjærebrett/product7.jpeg';
       thumbnails[1].src = 'pics/skjærebrett/product7-2.jpeg';
       thumbnails[2].src = 'pics/skjærebrett/product7-3.jpeg';
-      overlayTitle.textContent = 'Skjærebrett i eukalyptus og akasie';
+      overlayTitle.textContent = 'Skjærebrett i valnøtt';
       overlayDescription.textContent = 'Str l 26,5 x b 17 x h 0,7. Laget i valnøtt tre og støpt inn med epoxy.';
       overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "produkt 7" og ønsket leveringsadresse.';
     } else if (productId === '8') {
