@@ -32,10 +32,10 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
           overlayDescription.textContent = 'Dette er et vakkert skjærebrett laget av eukalyptus og akasie.';
           overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "produkt 1" og ønsket leveringsadresse.';
       } else if (productId === '2') {
-        mainOverlayImage.src = 'pics/skjærebrett/product2.JPG';
-        thumbnails[0].src = 'pics/skjærebrett/product2.JPG';
-        thumbnails[1].src = 'pics/skjærebrett/product2-2.JPG';
-        thumbnails[2].src = 'pics/skjærebrett/product2-3.JPG';
+        mainOverlayImage.src = 'pics/skjærebrett/product2.jpeg';
+        thumbnails[0].src = 'pics/skjærebrett/product2.jpeg';
+        thumbnails[1].src = 'pics/skjærebrett/product2-2.jpeg';
+        thumbnails[2].src = 'pics/skjærebrett/product2-3.jpeg';
         overlayTitle.textContent = 'Skjærebrett i eukalyptus og akasie';
         overlayDescription.textContent = 'Et skjærebrett laget av eukalyptus og akasie.';
         overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "produkt 2" og ønsket leveringsadresse.';
