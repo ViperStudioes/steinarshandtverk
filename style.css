@@ -255,7 +255,7 @@ text-align: center;
 .overlay-content {
   position: relative;
   margin: 5% auto;
-  background-color: #358BBC;
+  background-color: #956242;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -284,7 +284,7 @@ text-align: center;
 }
 
 .thumbnail.active {
-  border: 2px solid #956242; /* Fremhever valgt miniatyrbilde */
+  border: 2px solid #000000; /* Fremhever valgt miniatyrbilde */
 }
 
 .overlay-content p {
@@ -309,6 +309,10 @@ text-align: center;
   font-size: 30px;
   cursor: pointer;
   
+}
+
+.hidden {
+  display: none; /*Skjuler thumbnail bildene son er satt til none i javascript*/
 }
 
 /* mobilvisning */

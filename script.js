@@ -97,29 +97,29 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "produkt 9" og ønsket leveringsadresse.';
     } else if (productId === '21') {
       mainOverlayImage.src= 'pics/kniver/kniv1.jpeg';
-      thumbnails[0].src = 'pics/kniver/kniv1-2.jpeg';
-      thumbnails[1].src 
+      thumbnails[0].src = 'pics/kniver/kniv1.jpeg';
+      thumbnails[1].src = 'pics/kniver/kniv1-2.jpeg';
       thumbnails[2].src = 'picser/kniver/kniv1-3.jpeg';
       overlayTitle.textContent = 'kniv i eukalyptus og akasie';
       overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
       overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "KNIV 1" og ønsket leveringsadresse.';
     } else if (productId === '22') {
       mainOverlayImage.src= 'pics/kniver/kniv2.jpeg';
-      thumbnails[0].src = 'pics/kniver/knv2-2.jpeg';
-      thumbnails[1].src 
+      thumbnails[0].src = 'pics/kniver/kniv2.jpeg';
+      thumbnails[1].src ='pics/kniver/knv2-2.jpeg';
       thumbnails[2].src = 'pics/kniver/knv2-3.jpeg';
       overlayTitle.textContent = 'kniv i eukalyptus og akasie';
       overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
       overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 2" og ønsket leveringsadresse.';
     } else if (productId === '23') {
       mainOverlayImage.src= 'pics/kniver/kniv3.jpeg';
-      thumbnails[0].src = 'pics/kniver/kniv3-2.jpeg';
-      thumbnails[1].src 
+      thumbnails[0].src = 'pics/kniver/kniv3.jpeg';
+      thumbnails[1].src = 'pics/kniver/kniv3-2.jpeg';
       thumbnails[2].src = 'pics/kniver/kniv3-3.jpeg';
       overlayTitle.textContent = 'kniv i eukalyptus og akasie';
       overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
       overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 3" og ønsket leveringsadresse.';
-    } else if (productId === '43') {
+    } else if (productId === '24') {
       mainOverlayImage.src= 'pics/kniver/kniv4.jpeg';
       thumbnails[0].src = 'pics/kniver/kniv4.jpeg';
       thumbnails[1].src = 'pics/kniver/kniv4-2.jpeg';
@@ -135,9 +135,56 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       overlayTitle.textContent = 'kniv i eukalyptus og akasie';
       overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
       overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 5" og ønsket leveringsadresse.';
-    } 
-
+    } else if (productId === '31') {
+      mainOverlayImage.src= 'pics/diverse/div1.jpeg';
+      thumbnails[0].src = 'pics/diverse/div1.jpeg';
+      thumbnails[1].src = 'pics/diverse/div1-2.jpeg';
+      thumbnails[2].src = 'picser/diverse/div1-3.jpeg';
+      overlayTitle.textContent = 'Hyllepynt.';
+      overlayDescription.textContent = 'Fjell laget av eik.';
+      overlayExtraDescription.textContent = 'Bestille? Send 250kr på vipps til 909 17 933. Merk med "div 1" og ønsket leveringsadresse.';
+    } else if (productId === '32') {
+      mainOverlayImage.src= 'pics/diverse/div2.jpeg';
+      thumbnails[0].src = 'pics/diverse/div2.jpeg';
+      thumbnails[1].src = 'pics/diverse/div2-2.jpeg';
+      thumbnails[2].src = 'pics/diverse/div2-3.jpeg';
+      overlayTitle.textContent = 'Hyllepynt.';
+      overlayDescription.textContent = 'Fjell laget av eik.';
+      overlayExtraDescription.textContent = 'Bestille? Send 250kr på vipps til 909 17 933. Merk med "div 2" og ønsket leveringsadresse.';
+    } else if (productId === '33') {
+      mainOverlayImage.src= 'pics/diverse/div3.jpeg';
+      thumbnails[0].src = 'pics/diverse/div3.jpeg';
+      thumbnails[1].src = 'pics/diverse/div2-2.jpeg';
+      thumbnails[2].src = 'pics/diverse/div3-3.jpeg';
+      overlayTitle.textContent = 'Hyllepynt.';
+      overlayDescription.textContent = ' Fjell laget av eik.';
+      overlayExtraDescription.textContent = 'Bestille? Send 250kr på vipps til 909 17 933. Merk med "div 3" og ønsket leveringsadresse.';
+    } else if (productId === '34') {
+      mainOverlayImage.src= 'pics/diverse/div4.jpeg';
+      thumbnails[0].src = 'pics/diverse/div4.jpeg';
+      thumbnails[1].src = 'pics/diverse/div4-2.jpeg';
+      thumbnails[2].src = 'picser/diverse/div4-3.jpeg';
+      overlayTitle.textContent = 'Drikkebrikker med holder';
+      overlayDescription.textContent = 'Laget av epoxy og glitter';
+      overlayExtraDescription.textContent = 'Bestille? Send 250kr på vipps til 909 17 933. Merk med "div 4" og ønsket leveringsadresse.';
+    } else if (productId === '35') {
+      mainOverlayImage.src= 'pics/diverse/div5.jpeg';
+      thumbnails[0].src = 'pics/diverse/div5.jpeg';
+      thumbnails[1].src = 'pics/diverse/div5-2.jpeg';
+      thumbnails[2].src = 'pics/diverse/div5-3.jpeg';
+      overlayTitle.textContent = 'Lampe/Nattlys';
+      overlayDescription.textContent = 'Lampe/natt lys laget i tik og epoxy. Farger lilla, hvit, sort og gul. Av/på bryter og usb stikk.';
+      overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "div 5" og ønsket leveringsadresse.';
+    } else if (productId === '36') {
+      mainOverlayImage.src= 'pics/diverse/div6.jpeg';
+      thumbnails[0].src = 'pics/diverse/div6.jpeg';
+      thumbnails[1].src = 'pics/diverse/div6-2.jpeg';
+      thumbnails[2].src = 'pics/diverse/div6-3.jpeg';
+      overlayTitle.textContent = 'Lampe/Nattlys';
+      overlayDescription.textContent = 'Lampe/natt lys laget i tik og epoxy. Farger lilla, hvit, sort og gul. Av/på bryter og usb stikk.';
+      overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "div 6" og ønsket leveringsadresse.';
   }
+}
 
   productBoxes.forEach(function(box) {
       box.addEventListener('click', function() {
