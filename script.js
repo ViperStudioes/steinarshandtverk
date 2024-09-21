@@ -100,33 +100,33 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       thumbnails[0].src = 'pics/kniver/kniv1.jpeg';
       thumbnails[1].src = 'pics/kniver/kniv1-2.jpeg';
       thumbnails[2].src = 'pics/kniver/kniv1-3.jpeg';
-      overlayTitle.textContent = 'kniv i eukalyptus og akasie';
-      overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
-      overlayExtraDescription.textContent = 'Bestille? Send 500kr på vipps til 909 17 933. Merk med "KNIV 1" og ønsket leveringsadresse.';
+      overlayTitle.textContent = 'Bowie inspirerert kniv laget i surnet furu og damaskusstål med full tang.';
+      overlayDescription.textContent = 'Str 25cm. Skaft: surnet furu som er stabilisert. Messing pinner og mosaikk pin i kobber, stål og messing. L 11,5cm B 3,2cm. Blad: damaskus  stål meg vg10 i kjærne. L 14cm b 4mm. Slire: rålær. Brun sjarteret. ';
+      overlayExtraDescription.textContent = 'Bestille? Send 3700kr på vipps til 909 17 933. Merk med "KNIV 1" og ønsket leveringsadresse.';
     } else if (productId === '22') {
       mainOverlayImage.src= 'pics/kniver/kniv2.jpeg';
       thumbnails[0].src = 'pics/kniver/kniv2.jpeg';
       thumbnails[1].src ='pics/kniver/kniv2-2.jpeg';
       thumbnails[2].src = 'pics/kniver/kniv2-3.jpeg';
-      overlayTitle.textContent = 'kniv i eukalyptus og akasie';
-      overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
-      overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 2" og ønsket leveringsadresse.';
+      overlayTitle.textContent = 'Masurbjørk med innlegg i nysølv og vulcan fiber.';
+      overlayDescription.textContent = 'L 13cm B 2,4cm. Blad fra brusletto L 8cm B2,5mm. Slire laget i rålær. farge sort.';
+      overlayExtraDescription.textContent = 'Bestille? Send 2800kr på vipps til 909 17 933. Merk med "KNIV 2" og ønsket leveringsadresse.';
     } else if (productId === '23') {
       mainOverlayImage.src= 'pics/kniver/kniv3.jpeg';
       thumbnails[0].src = 'pics/kniver/kniv3.jpeg';
       thumbnails[1].src = 'pics/kniver/kniv3-2.jpeg';
       thumbnails[2].src = 'pics/kniver/kniv3-3.jpeg';
-      overlayTitle.textContent = 'kniv i eukalyptus og akasie';
-      overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
-      overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 3" og ønsket leveringsadresse.';
+      overlayTitle.textContent = 'Masurbjørk medinnlegg i purple hart.';
+      overlayDescription.textContent = 'L 12cm B 2,2cm. Blad: ukjent L 7,7cm B 3mm. Slire: rålær. Brun sjarteret.';
+      overlayExtraDescription.textContent = 'Bestille? Send 2100kr på vipps til 909 17 933. Merk med "KNIV 3" og ønsket leveringsadresse.';
     } else if (productId === '24') {
       mainOverlayImage.src= 'pics/kniver/kniv4.jpeg';
       thumbnails[0].src = 'pics/kniver/kniv4.jpeg';
       thumbnails[1].src = 'pics/kniver/kniv4-2.jpeg';
       thumbnails[2].src = 'pics/kniver/kniv4-3.jpeg';
-      overlayTitle.textContent = 'kniv i eukalyptus og akasie';
-      overlayDescription.textContent = 'En kniv laget av eukalyptus og akasie.';
-      overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 4" og ønsket leveringsadresse.';
+      overlayTitle.textContent = 'Rød alm, bøffel horn. Hvit og sort vulcan fiber.';
+      overlayDescription.textContent = 'L 12cm B 1,7. Blad: laget av morten Håkonsen. Slippet i en bord. Full tang. L 12cm B 4mm. Slire: ikke laget ennå, kan lages om ønskelig.';
+      overlayExtraDescription.textContent = 'Bestille? Send 2800kr på vipps til 909 17 933. Merk med "KNIV 4" og ønsket leveringsadresse.';
     } else if (productId === '25') {
       mainOverlayImage.src= 'pics/kniver/kniv5.jpeg';
       thumbnails[0].src = 'pics/kniver/kniv5.jpeg';
@@ -137,7 +137,7 @@ const mainOverlayImage = document.getElementById('main-overlay-image');
       overlayExtraDescription.textContent = 'Bestille? Send 300kr på vipps til 909 17 933. Merk med "KNIV 5" og ønsket leveringsadresse.';
     } else if (productId === '31') {
       mainOverlayImage.src= 'pics/diverse/div1.jpeg';
-      thumbnails[0].src = 'pics/diverse/div1.jpeg';
+      thumbnails[0].src = 'ics/diverse/div1.jpeg';
       thumbnails[1].src = 'pics/diverse/div1-2.jpeg';
       thumbnails[2].src = 'picser/diverse/div1-3.jpeg';
       overlayTitle.textContent = 'Hyllepynt.';
